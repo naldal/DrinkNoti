@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		DA264700270049A700C6C6D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2646FF270049A700C6C6D6 /* AppDelegate.swift */; };
 		DA264702270049A700C6C6D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA264701270049A700C6C6D6 /* SceneDelegate.swift */; };
-		DA264704270049A700C6C6D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA264703270049A700C6C6D6 /* ViewController.swift */; };
 		DA264707270049A700C6C6D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA264705270049A700C6C6D6 /* Main.storyboard */; };
 		DA264709270049A800C6C6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA264708270049A800C6C6D6 /* Assets.xcassets */; };
 		DA26470C270049A800C6C6D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA26470A270049A800C6C6D6 /* LaunchScreen.storyboard */; };
+		DA264714270049C400C6C6D6 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA264713270049C400C6C6D6 /* AlertListViewController.swift */; };
+		DA26471727004BA800C6C6D6 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26471527004BA800C6C6D6 /* AlertListCell.swift */; };
+		DA26471827004BA800C6C6D6 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA26471627004BA800C6C6D6 /* AlertListCell.xib */; };
+		DA26471A27004CF500C6C6D6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26471927004CF500C6C6D6 /* Alert.swift */; };
+		DA26471C270052B900C6C6D6 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26471B270052B900C6C6D6 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA2646FC270049A700C6C6D6 /* DrinkNoti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkNoti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2646FF270049A700C6C6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA264701270049A700C6C6D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA264703270049A700C6C6D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA264706270049A700C6C6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA264708270049A800C6C6D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA26470B270049A800C6C6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA26470D270049A800C6C6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA264713270049C400C6C6D6 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		DA26471527004BA800C6C6D6 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		DA26471627004BA800C6C6D6 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		DA26471927004CF500C6C6D6 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		DA26471B270052B900C6C6D6 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				DA2646FF270049A700C6C6D6 /* AppDelegate.swift */,
 				DA264701270049A700C6C6D6 /* SceneDelegate.swift */,
-				DA264703270049A700C6C6D6 /* ViewController.swift */,
+				DA264713270049C400C6C6D6 /* AlertListViewController.swift */,
+				DA26471B270052B900C6C6D6 /* AddAlertViewController.swift */,
+				DA26471927004CF500C6C6D6 /* Alert.swift */,
 				DA264705270049A700C6C6D6 /* Main.storyboard */,
+				DA26471527004BA800C6C6D6 /* AlertListCell.swift */,
+				DA26471627004BA800C6C6D6 /* AlertListCell.xib */,
 				DA264708270049A800C6C6D6 /* Assets.xcassets */,
 				DA26470A270049A800C6C6D6 /* LaunchScreen.storyboard */,
 				DA26470D270049A800C6C6D6 /* Info.plist */,
@@ -127,6 +139,7 @@
 			files = (
 				DA26470C270049A800C6C6D6 /* LaunchScreen.storyboard in Resources */,
 				DA264709270049A800C6C6D6 /* Assets.xcassets in Resources */,
+				DA26471827004BA800C6C6D6 /* AlertListCell.xib in Resources */,
 				DA264707270049A700C6C6D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA264704270049A700C6C6D6 /* ViewController.swift in Sources */,
 				DA264700270049A700C6C6D6 /* AppDelegate.swift in Sources */,
 				DA264702270049A700C6C6D6 /* SceneDelegate.swift in Sources */,
+				DA26471727004BA800C6C6D6 /* AlertListCell.swift in Sources */,
+				DA26471A27004CF500C6C6D6 /* Alert.swift in Sources */,
+				DA264714270049C400C6C6D6 /* AlertListViewController.swift in Sources */,
+				DA26471C270052B900C6C6D6 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
